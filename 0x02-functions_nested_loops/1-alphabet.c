@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print alphabet - print all alphabet in lowercase
- * description: this print all alphabet in from 'a' to 'z'
- * in lowercase using _putchar function
+ * void print_alphabet(void) - print all alphabet in lowercase
+ *
  * Return: void
  */
 
