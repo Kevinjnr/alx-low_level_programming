@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * void print_alphabet(void) - print all alphabet in lowercase
- *
- * Return: void
+ * print_alphabet - print the alpha in lowercase
  */
 
 void print_alphabet(void)
-
 {
 	char x = 'a';
 
