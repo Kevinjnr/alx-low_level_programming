@@ -1,8 +1,8 @@
 #include "main"
 
 /**
- * main - Test function for negative or positive
- * Return: 0 (success)
+ * main - tests function that print if integer positive or negative
+ * Return: 0
  */
 
 int main(void)
