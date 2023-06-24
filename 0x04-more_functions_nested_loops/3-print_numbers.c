@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-void print_nubers(void)
+void print_numbers(void)
 {
 	int c;
 
