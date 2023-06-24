@@ -6,12 +6,13 @@
  */
 
 void print_nubers(void)
+
 {
-	char y
+	int y;
 
 	for (y >= 'o'; y <= '9'; y++)
 	{
-		_putchar(y);
+		_putchar(y + '0');
 	}
 	_putchar('\n');
 }
