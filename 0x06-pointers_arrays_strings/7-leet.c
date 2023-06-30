@@ -14,7 +14,7 @@ char *leet(char *n)
 
 	for (x = 0; n[x] != '\0'; x++)
 	{
-		for (y = 0; j < 10; j++)
+		for (y = 0; y < 10; y++)
 		{
 			if (n[x] == s1[y])
 			{
