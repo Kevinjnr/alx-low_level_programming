@@ -4,23 +4,30 @@
  * _strstr - a function that locates a substring
  * @needle: input
  * haystack: string to be searched
- * return: 0
+ * Return: if the substring is located and NULL if not
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack != '\0'; haystack++)
-	{
-		char *a = haystack;
-		char *b = needle;
+	int i;
 
-		while (*a = *b && *b != '\0')
+	if (*needle == 0)
+		return (haystack);
+
+	while (*haystack)
+	{
+		i = 0;
+
+		if (haystack[i] == needle[i])
 		{
-			*a++;
-			*b++;
+			do {
+				if (needle[i + 1] == '\0')
+					return (haystack);
+
+				i++;
+			} while (haystack[i] == needle[i]);
 		}
-		if (*b == '\0')
-			return (haystack);
+		haystack++;
 	}
 	return ('\0');
 }
