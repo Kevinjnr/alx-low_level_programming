@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		{
 			f = argv[x];
 
-			for (y = 0; y < str(f); y++;)
+			for (y = 0; y < strlen(f); y++)
 			{
 				if (f[y] < 48 || f[y] > 57)
 				{
